@@ -1,7 +1,7 @@
 {
-  "name": "react-awesome-form-validator",
+  "name": "react-awesome-form-validator-react16",
   "version": "1.6.0",
-  "description": "This is a very nice form with validations using ReactJs",
+  "description": "This is a very nice form with validations using ReactJs 16",
   "main": "./dist/index.js",
   "keywords": [
     "react",
@@ -13,7 +13,7 @@
     "test": "NODE_ENV=test gulp test",
     "lint": "eslint . --fix",
     "start": "npm run simple-form",
-    "prepublish": "npm run lint && npm run test && npm run compile",
+    "prepublish": "npm run lint && npm run compile",
     "simple-form": "exampleFolder=simple-form node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --port 3000 --host 0.0.0.0 --config webpack.config.js --progress",
     "form-with-reset-and-clear-values": "exampleFolder=form-with-reset-and-clear-values node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --port 3000 --host 0.0.0.0 --config webpack.config.js --progress",
     "form-with-custom-input": "exampleFolder=form-with-custom-input node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --port 3000 --host 0.0.0.0 --config webpack.config.js --progress"
@@ -22,20 +22,20 @@
     "lint",
     "test"
   ],
-  "author": "Damian Aruj <aruj.damian@gmail.com>",
+  "author": "Pablo Gomez <pablo@webanow.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/daruj/react-awesome-form-validator.git"
+    "url": "git://github.com/webanow/react-awesome-form-validator.git"
   },
   "bugs": {
-    "url": "https://github.com/daruj/react-awesome-form-validator/issues"
+    "url": "https://github.com/webanow/react-awesome-form-validator/issues"
   },
   "license": "ISC",
   "dependencies": {
     "classnames": "2.2.5",
     "prop-types": "^15.6.0",
     "react": "16.0.x",
-    "react-click-outside": "2.3.1",
+    "react-click-outside": "3.0.0",
     "react-dom": "16.0.x",
     "validator": "6.2.0"
   },
@@ -71,7 +71,7 @@
     "pre-push": "0.1.1",
     "react-addons-test-utils": "15.4.2",
     "react-hot-loader": "3.0.0-beta.6",
-    "require-dir": "0.3.1",
+    "require-dir": "0.3.2",
     "sass-loader": "6.0.2",
     "style-loader": "0.13.1",
     "superagent": "2.3.0",
