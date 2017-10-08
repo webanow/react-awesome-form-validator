@@ -33,10 +33,10 @@
   "license": "ISC",
   "dependencies": {
     "classnames": "2.2.5",
-    "prop-types": "^15.5.10",
-    "react": "15.5.x",
+    "prop-types": "^15.6.0",
+    "react": "16.0.x",
     "react-click-outside": "2.3.1",
-    "react-dom": "15.5.x",
+    "react-dom": "16.0.x",
     "validator": "6.2.0"
   },
   "devDependencies": {
